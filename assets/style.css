@@ -324,15 +324,13 @@ body {
 
 /* end media  query */
 .pricing-1 {
-  /* font-size: 34px; */
-  font-size: 20px;
+  font-size: 34px;
   font-weight: bold;
   margin-bottom: 0;
 }
 
 .pricing-2 {
-  /* font-size: 18px; */
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 400;
   margin-bottom: 0;
   text-decoration: line-through;
@@ -340,11 +338,11 @@ body {
 }
 
 .discount-badge {
-  font-size: 13px;
+  font-size: 14px;
   border-radius: 50px;
-  line-height: 13px;
+  line-height: 14px;
   display: inline-block;
-  padding: 5px 8px;
+  padding: 5px 10px;
 
 }
 
