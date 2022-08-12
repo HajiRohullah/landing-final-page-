@@ -25,27 +25,34 @@ html {
 
 body {
   font-family: 'Emirates';
-  font-size: 12px ;
+  font-size: 12px;
 }
-.primary{
+
+.primary {
   color: #ed0c72 !important;
 }
-.bg-primary{
+
+.bg-primary {
   background-color: #ed0c72 !important;
 }
-.pt-6{
+
+.pt-6 {
   padding-top: 60px;
 }
+
 .container {
   max-width: 720px !important;
 }
-.font-bold{
-  font-weight: bold !important ; 
+
+.font-bold {
+  font-weight: bold !important;
 }
-.font-size-5{
-  font-size: 45px ;
+
+.font-size-5 {
+  font-size: 45px;
 }
-.bg-gray{
+
+.bg-gray {
   background-color: rgb(216, 216, 216);
 }
 
@@ -74,7 +81,7 @@ body {
 
 .landing {
   height: 450px !important;
-  background-image: url(../images/Untitled.jpg);
+  background-image: url("../images/1.png") !important;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -88,11 +95,16 @@ body {
   border-radius: 6px;
   bottom: -50px;
 }
-.WH{
-  left: calc(50% - var(--diameter2)/2);
+
+
+.discount-cart {
+  transform: translate(-50%);
+  height: 90px;
   color: white;
-  width: 200px ;
-  top: -16px;
+  width: 200px;
+  top: -40%;
+  left: 50%;
+  z-index: 99999;
 }
 
 .boxShadow {
@@ -134,98 +146,54 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 /* ============== WELCOME PAGE STYLES ================= */
-.thank-you{
+.thank-you {
   font-size: 7rem;
   margin-top: 120px;
 }
-.logo{
+
+.logo {
   width: 150px;
   margin-top: 150px;
 }
-.order-done{
+
+.order-done {
   font-size: 2.5rem;
 }
 
-.btn-home{
+.btn-home {
   width: 55%;
   font-size: 2.5rem;
   border-radius: 10px;
   margin-top: 150px;
 }
 
-.landing_home{
+.landing_home {
   background-image: url('../images/background1.svg');
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
   background-size: cover;
 }
 
-.icon{
+.icon {
   width: 20px;
 }
 
-.footer{
+.footer {
   font-size: 1.5rem;
   margin-top: 150px;
   margin-bottom: 40px;
 }
 
-.image{
+.image {
   width: 90%;
 }
 
-/* for mobile */
-@media (max-width: 480px) {
-  .thank-you{
-    font-size: 4rem;
-    margin-top: 80px;
-  }
-  .logo{
-    width: 100px;
-    margin-top: 120px;
-  }
-  .order-done{
-    font-size: 1.3rem;
-  }
 
-  .btn-home{
-    width: 70%;
-    font-size: 1.5rem;
-    border-radius: 10px;
-    margin-top: 50px;
-  }
-  
-  .landing_home{
-    background-image: url('../images/background1.svg');
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover;
-  }
-  
-  .icon{
-    width: 15px;
-  }
-  
-  .footer{
-    font-size: 1rem;
-    margin-top: 50px;
-    margin-bottom: 20px;
-  }
-  
-  .image{
-    width: 90%;
-    margin-top: 20px;
-  }
-}
 /* clock */
-.flip-clock-label {
-  display: none;
-}
-
-.flip-clock-wrapper ul:nth-child(even) {
-  border-radius: 10px 0 0 10px;
-}
 
 .flip-clock-wrapper ul li a div div.inn,
 .flip-clock-dot {
@@ -246,4 +214,140 @@ body {
 
 .flip-clock-dot {
   border-radius: 0px !important;
+}
+
+
+
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+/* for mobile */
+@media (max-width: 480px) {
+  .thank-you {
+    font-size: 4rem;
+    margin-top: 80px;
+  }
+
+  .logo {
+    width: 100px;
+    margin-top: 120px;
+  }
+
+  .order-done {
+    font-size: 1.3rem;
+  }
+
+  .btn-home {
+    width: 70%;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    margin-top: 50px;
+  }
+
+  .landing_home {
+    background-image: url('../images/background1.svg');
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+  }
+
+  .icon {
+    width: 15px;
+  }
+
+  .footer {
+    font-size: 1rem;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .image {
+    width: 90%;
+    margin-top: 20px;
+  }
+
+  .clock {
+    zoom: 0.5 !important;
+    -moz-transform: scale(0.5) !important;
+  }
+
+  .font-size-5 {
+    font-size: 32px;
+  }
+
+  .landing {
+    height: 350px !important;
+  }
+
+  .discount-cart {
+    transform: translate(-50%);
+    height: 70px;
+    color: white;
+    width: 120px;
+    top: -25%;
+    left: 50%;
+    z-index: 99999;
+  }
+
+  .pricing-1 {
+    font-size: 24px !important;
+
+  }
+
+  .pricing-2 {
+    font-size: 14px !important;
+
+  }
+
+  .discount-badge {
+    font-size: 9px !important;
+    border-radius: 50px;
+    line-height: 9px !important;
+    display: inline-block;
+    padding: 3px 5px !important;
+
+  }
+
+  .report-text {
+    font-size: 10px !important;
+  }
+
+  .report-number {
+    font-size: 12px !important;
+    font-weight: bold !important;
+  }
+
+
+}
+
+/* end media  query */
+.pricing-1 {
+  /* font-size: 34px; */
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.pricing-2 {
+  /* font-size: 18px; */
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 0;
+  text-decoration: line-through;
+
+}
+
+.discount-badge {
+  font-size: 13px;
+  border-radius: 50px;
+  line-height: 13px;
+  display: inline-block;
+  padding: 5px 8px;
+
+}
+
+.discount-cart-wraper {
+  height: 50px;
 }

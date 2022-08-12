@@ -1,0 +1,24 @@
+.flip-clock-divider .flip-clock-label {
+     position: absolute;
+     bottom: -1.5em;
+     left: -86px;
+     right: unset !important;
+     color: #ed0c72;
+     text-shadow: none;
+     font-family: 'Emirates';
+     font-size: 24px;
+     font-weight: 500;
+     text-transform: uppercase;
+}
+
+.flip-clock-divider.minutes .flip-clock-label {
+     left: -88px;
+     right: unset !important;
+
+
+}
+
+.flip-clock-divider.seconds .flip-clock-label {
+     left: -91px;
+     right: unset !important;
+}

@@ -6,6 +6,7 @@ $(document).ready(function () {
   clock = $(".clock").FlipClock({
     clockFace: "DailyCounter",
     autoStart: false,
+    language: "ar",
     callbacks: {
       stop: function () {
         $(".message").html("The clock has stopped!");
