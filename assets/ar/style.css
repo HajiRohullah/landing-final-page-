@@ -12,7 +12,7 @@
 }
 
 .flip-clock-divider.minutes .flip-clock-label {
-     left: -88px;
+     left: -100px;
      right: unset !important;
 
 
@@ -21,4 +21,8 @@
 .flip-clock-divider.seconds .flip-clock-label {
      left: -91px;
      right: unset !important;
+}
+
+.flip-clock-divider.hours .flip-clock-label {
+     right: 54px !important;
 }
